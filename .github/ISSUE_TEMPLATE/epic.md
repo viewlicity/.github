@@ -1,7 +1,6 @@
 ---
-name: Task list
+name: Epic
 about: Plan a high level feature or release
-title: ''
 labels: ''
 assignees: ''
 
