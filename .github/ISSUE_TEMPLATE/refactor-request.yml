@@ -1,0 +1,72 @@
+name: Refactor Request
+description: Propose a refactor or code improvement for Putt View
+labels: ["refactor:broom:"]
+projects: ["viewlicity/4"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Refactor Request
+        
+        Maintaining a clean, efficient, and scalable codebase is paramount to Putt View's continuous growth and improvement. Use this template to suggest areas of the code that can benefit from refactoring.
+
+  - type: input
+    id: refactor-area
+    attributes:
+      label: Area/Module of Refactor
+      description: A brief title or description of the code area/module needing refactoring.
+      placeholder: e.g., "Visualization Tools Backend Logic."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason-for-refactor
+    attributes:
+      label: Reason for Refactor
+      description: Why does this specific area/module need refactoring? 
+      placeholder: "The current logic has grown complex over time, making it harder to introduce new features without side effects."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-benefits
+    attributes:
+      label: Expected Benefits
+      description: Describe the expected outcomes or benefits after the refactor.
+      placeholder: "Streamlined logic will make it easier to implement future enhancements and reduce the risk of bugs."
+    validations:
+      required: true
+
+  - type: textarea
+    id: code-references
+    attributes:
+      label: Attach Code or References (Optional)
+      description: If you have specific code snippets, diagrams, or any other materials that can highlight the areas needing refactoring, attach them here.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Any other relevant details, considerations, or context for the refactor.
+      placeholder: "Considering the upcoming feature X, this refactor can lay a solid groundwork..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: preliminary-checks
+    attributes:
+      label: Preliminary Checks
+      options:
+        - label: I've reviewed the current codebase to ensure this refactor aligns with best practices and overall architecture.
+          required: true
+        - label: I believe this refactor can enhance performance, maintainability, or prepare for upcoming features in Putt View.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **Note:** Refactoring is a crucial aspect of software development, ensuring the codebase remains agile and adaptable. Your insights help guide this continuous process.
+

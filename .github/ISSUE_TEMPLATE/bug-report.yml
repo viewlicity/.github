@@ -1,0 +1,84 @@
+name: Bug Report
+description: Report a bug encountered during usage
+labels: ["bug:bug:"]
+projects: ["viewlicity/4"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Report
+        
+        We strive for perfection, but sometimes bugs can slip through. Your report plays a crucial role in maintaining the high quality of Putt View. Use this template to provide details about the issue you've encountered.
+
+  - type: input
+    id: bug-title
+    attributes:
+      label: Bug Title
+      description: A concise title that summarizes the issue.
+      placeholder: e.g., "Visualization Tool Freezes on Input."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Please provide a step-by-step guide on how to reproduce the bug.
+      placeholder: |
+        1. Open the Visualization Tool.
+        2. Select "Wind Simulation".
+        3. Input wind speed above 20mph.
+        4. Tool freezes.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Describe what you expected to happen.
+      placeholder: "The tool should simulate the wind effect without any interruption or freezing."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: Describe what actually happened.
+      placeholder: "The tool freezes and becomes unresponsive."
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Additional References
+      description: Drag and drop your screenshots here or use the "Attach files" option. They will be uploaded and automatically converted to links when you submit the form.
+    validations:
+      required: true
+
+  - type: input
+    id: device-info
+    attributes:
+      label: Device Information
+      description: Please specify the device where you encountered the bug.
+      placeholder: e.g., "Win10, iPhone 12 Pro Max, iOS 15.3"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: preliminary-checks
+    attributes:
+      label: Preliminary Checks
+      options:
+        - label: I've made sure to pull the latest development changes or that i have updated to the latest version of Putt View.
+          required: true
+        - label: I've checked existing issues to see if this bug has been reported before.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **Note:** Thank you for helping us identify and rectify issues. Your diligence ensures Putt View remains reliable and user-friendly.

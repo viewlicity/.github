@@ -1,0 +1,43 @@
+name: Miscellaneous Issue
+description: Address any other concern or topic not covered by the standard templates
+labels: []
+projects: ["viewlicity/4"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Miscellaneous Issue
+        
+        For any topics or concerns that don't fit into the standard templates, use this form. Ensure you provide as much detail as necessary to convey the context and nature of the issue.
+
+  - type: input
+    id: issue-title
+    attributes:
+      label: Issue Title
+      description: A concise title that summarizes the topic.
+      placeholder: e.g., "Query about Data Storage."
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Issue Description
+      description: Provide a detailed description of the concern or topic. 
+      placeholder: "I've been wondering how data storage is handled when..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: references-and-attachments
+    attributes:
+      label: Attach References or Documents (Optional)
+      description: If you have any relevant files, documents, or visuals, attach them here.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        **Note:** Thank you for raising your concern or topic. We appreciate your attention to detail and commitment to improving Putt View.

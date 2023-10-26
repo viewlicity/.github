@@ -1,0 +1,78 @@
+name: Documentation Request
+description: Propose new documentation or improvements to existing materials for Putt View
+labels: ["docs:book:"]
+projects: ["viewlicity/4"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Documentation Request
+        
+        Quality documentation ensures that our users, team members, and stakeholders understand and utilize Putt View to its fullest potential. Use this template to request new documentation or suggest improvements to existing materials.
+
+  - type: input
+    id: documentation-title
+    attributes:
+      label: Documentation Title
+      description: A brief title for the documentation or the area needing improvement.
+      placeholder: e.g., "Visualization Tools Guide."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: documentation-type
+    attributes:
+      label: Type of Documentation
+      description: Specify the type or category of documentation you're referring to.
+      options:
+        - User Manual
+        - Technical Guide
+        - Troubleshooting Guide
+        - Training Module
+        - FAQ
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: documentation-details
+    attributes:
+      label: Documentation Details
+      description: Describe the content you'd like to see covered or the improvements needed.
+      placeholder: "A step-by-step walkthrough on using the visualization tools, covering the basics to advanced features..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: supporting-materials
+    attributes:
+      label: Attach Supporting Materials (Optional)
+      description: Drag and drop your screenshots here or use the "Attach files" option. If you have drafts, references, or any other materials that could aid in the creation or enhancement of the documentation, attach them here.
+    validations:
+      required: false
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for Request
+      description: Why is this documentation needed or why should the existing one be updated?
+      placeholder: "Many users have reached out expressing confusion about the visualization tools. Clear documentation can reduce support queries and enhance user experience."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: preliminary-checks
+    attributes:
+      label: Preliminary Checks
+      options:
+        - label: I've checked existing documentation to ensure this topic hasn't been covered or needs an update.
+          required: true
+        - label: I believe this documentation aligns with Putt View's goal to offer clear guidance and support to users.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **Note:** Proper documentation ensures that users can maximize the benefits of Putt View. Your insights and requests help us enhance clarity, efficiency, and user satisfaction.
+

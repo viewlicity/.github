@@ -1,0 +1,62 @@
+name: UI Design Issue
+description: Discuss, track, or review UI concepts and designs for Putt View
+labels: ["ux:detective:"]
+projects: ["viewlicity/4"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## UI Design Issue
+        
+        This template is dedicated to discussing and reviewing UI concepts and designs. Ensure you provide all necessary details and references to facilitate productive discussions.
+
+  - type: input
+    id: design-title
+    attributes:
+      label: Design Title
+      description: A concise title that summarizes the design topic.
+      placeholder: e.g., "New Wind Simulation Tool Interface."
+    validations:
+      required: true
+      
+  - type: textarea
+    id: design-description
+    attributes:
+      label: Design Description
+      description: Describe the primary goals, features, or elements of the design.
+      placeholder: "The new interface aims to be more user-friendly, with intuitive controls and..."
+    validations:
+      required: true
+      
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Additional References
+      description: Drag and drop your screenshots here or use the "Attach files" option. They will be uploaded and automatically converted to links when you submit the form.
+    validations:
+      required: false
+      
+  - type: input
+    id: adobe-xd-link
+    attributes:
+      label: Adobe XD Concept Reference
+      description: Provide the direct link to the Adobe XD concept or design.
+      placeholder: "https://xd.adobe.com/view/..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes or Context
+      description: Provide any further context, considerations, or related information about the design.
+      placeholder: "The color palette was chosen based on user feedback indicating a preference for cooler colors in the training interface..."
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        **Note:** UI designs play a pivotal role in user experience. Your dedication to creating intuitive and visually appealing designs enhances Putt View's usability and appeal. Thank you for your contributions!
+

@@ -1,0 +1,72 @@
+name: Feature Request
+description: Propose a new feature or enhancement for Putt View
+labels: ["feature:wrench:"]
+projects: ["viewlicity/4"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Request
+        
+        Enhancing Putt View is a continuous journey. Whether it's a new tool, a modification, or an innovative idea, your insights help shape our platform. Use this template to suggest features or improvements.
+
+  - type: input
+    id: feature-title
+    attributes:
+      label: Feature Title
+      description: A brief title for the proposed feature or enhancement.
+      placeholder: e.g., "Interactive Wind Simulation for Putting."
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description
+      description: Describe the feature in detail. What does it do? How does it work? What problem does it solve?
+      placeholder: "An interactive wind simulation tool that allows users to understand the impact of wind on their putts. Users can adjust wind speed and direction, and the simulation provides real-time feedback..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: visual-references
+    attributes:
+      label: Attach Visual References or Mockups (Optional)
+      description: If you have sketches, mockups, or any visual representation of the feature, attach them here.
+    validations:
+      required: false
+
+  - type: textarea
+    id: benefit-to-users
+    attributes:
+      label: Benefit to Users
+      description: Explain how this feature enhances the experience or capabilities of Putt View users.
+      placeholder: "By simulating real-world conditions, golfers can better prepare for outdoor games, making their training more comprehensive and realistic."
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Any other considerations, implementation details, or context for this feature.
+      placeholder: "Considering the diversity of devices our users have, the simulation should be optimized for both high-end and mid-tier devices..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: preliminary-checks
+    attributes:
+      label: Preliminary Checks
+      options:
+        - label: I've checked existing features and documentation to ensure this hasn't been proposed or implemented before.
+          required: true
+        - label: I believe this feature aligns with Putt View's mission to provide comprehensive golf training.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **Note:** Features shape the growth and capabilities of Putt View. Your ideas and suggestions play a crucial role in enhancing our platform and meeting users' needs.
+

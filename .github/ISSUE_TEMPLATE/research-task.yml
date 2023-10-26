@@ -1,0 +1,82 @@
+name: Research Task
+description: Initiate a research study
+labels: ["feature:wrench:", "docs:book:"]
+projects: ["viewlicity/4"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Research Task
+        
+        The better we understand the game of golf, training techniques, and our users, the more effective Putt View becomes. Use this template to propose or describe a research effort that can elevate our platform.
+
+  - type: input
+    id: research-topic
+    attributes:
+      label: Research Topic
+      description: A succinct title for the research task.
+      placeholder: e.g., "Impact of visual feedback on putting accuracy."
+    validations:
+      required: true
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What's the primary goal or purpose of this research? 
+      placeholder: "Understand how immediate visual feedback affects a golfer's ability to adjust and improve their putting technique."
+    validations:
+      required: true
+
+  - type: textarea
+    id: methodology
+    attributes:
+      label: Methodology
+      description: How do you plan to conduct this research? 
+      placeholder: |
+        1. Survey a group of Putt View users on their perceived benefits of visual feedback.
+        2. Conduct controlled tests with golfers using Putt View's visual feedback features vs. traditional methods...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reference-material
+    attributes:
+      label: Attach Reference Material (Optional)
+      description: If you have papers, articles, or other materials related to your research, attach them here.
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected-outcome
+    attributes:
+      label: Expected Outcome
+      description: What results or insights do you hope to achieve?
+      placeholder: "Data-driven insights on the efficacy of visual feedback tools in improving putting techniques and recommendations for Putt View feature enhancements."
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Any other relevant details or considerations for this research.
+      placeholder: "Given the diverse range of golfing skills among our users, we might need to segment our research based on user proficiency levels..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: preliminary-checks
+    attributes:
+      label: Preliminary Checks
+      options:
+        - label: I've checked existing research tasks to ensure this topic hasn't been studied before.
+          required: true
+        - label: I believe this research aligns with Putt View's mission to enhance golf training.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **Note:** Research is an iterative process. Initial hypotheses or methodologies may evolve based on findings. Collaboration and open communication are key to successful research.

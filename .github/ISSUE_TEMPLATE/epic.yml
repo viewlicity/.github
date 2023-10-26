@@ -1,0 +1,63 @@
+name: Epic
+description: Define a high-level objective or initiative for Putt View
+labels: ["feature:wrench:"]
+projects: ["viewlicity/4"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Epic Definition
+        
+        Epics outline broad objectives or initiatives that require multiple tasks, features, or fixes to accomplish. Use this template to define and track high-level goals for Putt View.
+
+  - type: input
+    id: epic-title
+    attributes:
+      label: Epic Title
+      description: A succinct title that encapsulates the epic's objective.
+      placeholder: e.g., "Enhancement of Wind Simulation Tools."
+    validations:
+      required: true
+
+  - type: textarea
+    id: epic-description
+    attributes:
+      label: Epic Description
+      description: Describe the overall goal and purpose of this epic.
+      placeholder: "Revamp the wind simulation tools to be more accurate, user-friendly, and compatible with a broader range of devices."
+    validations:
+      required: true
+
+  - type: textarea
+    id: key-objectives
+    attributes:
+      label: Key Objectives or Outcomes
+      description: List the main objectives or outcomes you hope to achieve with this epic.
+      placeholder: |
+        1. Increase wind simulation accuracy by 20%.
+        2. Enhance UI for better user interaction.
+        3. Optimize for performance on mid-tier devices.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Additional References
+      description: Drag and drop your screenshots here or use the "Attach files" option. They will be uploaded and automatically converted to links when you submit the form.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: preliminary-checks
+    attributes:
+      label: Preliminary Checks
+      options:
+        - label: I've ensured this epic aligns with Putt View's strategic goals and roadmap.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **Note:** Once the epic is created, individual tasks, features, or bugs related to this epic should be created as separate issues and linked back to this epic for easy tracking and organization.
