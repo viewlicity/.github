@@ -11,15 +11,6 @@ body:
         
         This template is dedicated to discussing and reviewing UI concepts and designs. Ensure you provide all necessary details and references to facilitate productive discussions.
 
-  - type: input
-    id: design-title
-    attributes:
-      label: Design Title
-      description: A concise title that summarizes the design topic.
-      placeholder: e.g., "New Wind Simulation Tool Interface."
-    validations:
-      required: true
-      
   - type: textarea
     id: design-description
     attributes:

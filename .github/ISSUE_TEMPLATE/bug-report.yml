@@ -12,14 +12,14 @@ body:
         We strive for perfection, but sometimes bugs can slip through. Your report plays a crucial role in maintaining the high quality of Putt View. Use this template to provide details about the issue you've encountered.
 
   - type: input
-    id: bug-title
+    id: bug-location
     attributes:
-      label: Bug Title
-      description: A concise title that summarizes the issue.
-      placeholder: e.g., "Visualization Tool Freezes on Input."
+      label: Area/Module/Class where Bug occurs
+      description: Please narrow down the bug by providing the module where the bug appears.
+      placeholder: e.g., "Visualization Tools Backend Logic."
     validations:
       required: true
-
+        
   - type: textarea
     id: steps-to-reproduce
     attributes:

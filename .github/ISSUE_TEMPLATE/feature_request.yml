@@ -11,15 +11,6 @@ body:
         
         Enhancing Putt View is a continuous journey. Whether it's a new tool, a modification, or an innovative idea, your insights help shape our platform. Use this template to suggest features or improvements.
 
-  - type: input
-    id: feature-title
-    attributes:
-      label: Feature Title
-      description: A brief title for the proposed feature or enhancement.
-      placeholder: e.g., "Interactive Wind Simulation for Putting."
-    validations:
-      required: true
-
   - type: textarea
     id: feature-description
     attributes:

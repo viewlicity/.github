@@ -11,15 +11,6 @@ body:
         
         Quality documentation ensures that our users, team members, and stakeholders understand and utilize Putt View to its fullest potential. Use this template to request new documentation or suggest improvements to existing materials.
 
-  - type: input
-    id: documentation-title
-    attributes:
-      label: Documentation Title
-      description: A brief title for the documentation or the area needing improvement.
-      placeholder: e.g., "Visualization Tools Guide."
-    validations:
-      required: true
-
   - type: dropdown
     id: documentation-type
     attributes:
