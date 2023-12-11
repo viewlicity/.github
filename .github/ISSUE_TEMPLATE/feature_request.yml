@@ -1,6 +1,6 @@
 name: Feature Request
 description: Propose a new feature or enhancement for Putt View
-labels: ["feature:wrench:"]
+labels: ["feature :wrench:"]
 projects: ["viewlicity/4"]
 
 body:

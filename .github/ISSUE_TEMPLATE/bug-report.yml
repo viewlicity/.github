@@ -1,6 +1,6 @@
 name: Bug Report
 description: Report a bug encountered during usage
-labels: ["bug:bug:"]
+labels: ["bug :bug:"]
 projects: ["viewlicity/4"]
 
 body:

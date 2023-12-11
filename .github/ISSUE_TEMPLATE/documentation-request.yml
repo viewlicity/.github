@@ -1,6 +1,6 @@
 name: Documentation Request
 description: Propose new documentation or improvements to existing materials for Putt View
-labels: ["docs:book:"]
+labels: ["docs :book:"]
 projects: ["viewlicity/4"]
 
 body:

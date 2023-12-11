@@ -1,6 +1,6 @@
 name: UI Design Issue
 description: Discuss, track, or review UI concepts and designs for Putt View
-labels: ["ux:detective:", "ui:iphone:"]
+labels: ["ux :detective:", "ui :iphone:"]
 projects: ["viewlicity/4"]
 
 body:

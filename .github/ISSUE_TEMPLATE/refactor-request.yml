@@ -1,6 +1,6 @@
 name: Refactor Request
 description: Propose a refactor or code improvement for Putt View
-labels: ["refactor:broom:"]
+labels: ["refactor :broom:"]
 projects: ["viewlicity/4"]
 
 body:

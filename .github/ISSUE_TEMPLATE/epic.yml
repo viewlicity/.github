@@ -1,6 +1,6 @@
 name: Epic
 description: Define a high-level objective or initiative for Putt View
-labels: ["feature:wrench:"]
+labels: ["feature :wrench:"]
 projects: ["viewlicity/4"]
 
 body:

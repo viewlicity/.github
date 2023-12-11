@@ -1,6 +1,6 @@
 name: Research Task
 description: Initiate a research study
-labels: ["feature:wrench:", "docs:book:"]
+labels: ["feature :wrench:", "docs :book:"]
 projects: ["viewlicity/4"]
 
 body:
